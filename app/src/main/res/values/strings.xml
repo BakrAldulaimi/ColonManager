@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="setting">setting</string>
+    <string name="app_label">search</string>
+    <string name="search_hint">Search...</string>
+    <string name="About">About</string>
+    <string name="searchable">searchable</string>
+    <string name="menu_search">menu_search</string>
+    <string name="short_text">short_text</string>
+
+    <string-array name="titles">
+        <item>المقدمة</item>
+        <item>ما هي ال FODMAPs</item>
+        <item>النشويات و FODMAPs</item>
+        <item>كيف توثر ال FODMAPs في عمليه الهظم؟ </item>
+        <item>من؟ يعاني من سوء هضم ال FODMAPs?</item>
+        <item>الاغذيه التي تحتوي على ال FODMAPs</item>
+        <item>سسله المشتريات ل حميةال FODMAP</item>
+        <item>حميه ال FODMAP للنباتيين</item>
+        <item>التغذيه الصحيه مع حميه ال FODMAPs</item>
+        <item>كيفه قراءة منشورات المواد الغذائيه</item>
+        <item>دليل الوجبات لحميه ال FODMAPs</item>
+        <item>أأضافه التوابل ل حميه ال FODMAP</item>
+        <item>ألاسئله الشائعه</item>
+
+
+    </string-array>
+    <string-array name="descriptions">
+        <item>الجهاز الهضمي و القولون العصبي</item>
+        <item>كيف تهيج ال FODMAP اغراض القولون العصبي؟</item>
+        <item>تحليل ال FODMAP</item>
+        <item>تاثير عسر هضم ال FODMAP على الامعاء</item>
+        <item></item>
+        <item>دليل سريع لتجنب الطعام الغير صحي</item>
+        <item>لاضافه مذكره تسوق</item>
+        <item>هل حميتك كافيه غذائيا؟</item>
+        <item>تحقيق التغذيه المتكامله</item>
+        <item>اكتشف ال FODMAPs في غذائك</item>
+        <item>دليل سريع لتفادي ال FODMAPs</item>
+        <item>توابل خاصه بال FODMAPs</item>
+        <item>أسئله متكرره</item>
+
+    </string-array>
+
+    <string-array name="GuideTitles">
+        <item>المشروبات</item>
+        <item>الحبوب</item>
+        <item>التوابل</item>
+        <item>السكريات, الحلويات</item>
+        <item>مشتقات الحليب</item>
+        <item>الزيوت و الدهون</item>
+        <item>الفواكه</item>
+        <item>اللحوم, السمك, البيض</item>
+        <item>البقوليتا و المكسرات</item>
+        <item>الخضار</item>
+    </string-array>
+    <string-array name="GuideDescriptions">
+        <item>العصيرات, المشروبات الغازيه, القهوه و الشاي, الخ</item>
+        <item>الشوفان, الخبز الاسمر, البسكويت</item>
+        <item>السكريتا الطبيعيه و الصناعيه, الحلويات</item>
+        <item>منتجات الحليب و البدائل</item>
+        <item>الدهون المشبعه و الزيوت</item>
+        <item>الفواكه المعالجه و الطازجه</item>
+        <item>اللحوم و الوجبات الجاهزه</item>
+        <item></item>
+        <item>this is description 9</item>
+        <item>this is description 10</item>
+    </string-array>
+
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+
+    </string-array>
+
+</resources>
