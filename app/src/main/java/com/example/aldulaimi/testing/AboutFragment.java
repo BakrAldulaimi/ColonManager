@@ -27,7 +27,6 @@ import java.util.ArrayList;
  * Created by Aldulaimi on 9/2/2016.
  */
 public class AboutFragment extends Fragment {
-    String[] crime={"Blindspot","The Player","Silicon Valley","Hannibal","XIII"};
     ArrayList<Player> list;
     private SearchView sv;
     private String[] titles;
@@ -70,7 +69,6 @@ public class AboutFragment extends Fragment {
         }
         return list;
     }
-
 }
 
 

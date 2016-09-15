@@ -29,7 +29,7 @@ public class SecondActivity extends AppCompatActivity {
 
     }
 
-    // Stop Second activity & go back
+    // Stop Second activity & go back to home page
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.support.v4.app.FragmentActivity;
+import android.widget.Toast;
+
 import com.example.aldulaimi.testing.R;
 import com.example.aldulaimi.testing.SecondActivity;
 import com.example.aldulaimi.testing.TypeList;
@@ -24,21 +26,30 @@ public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickLis
     ImageView img2;
     TextView nameTxt,posTxt;
     ItemClickListener itemClickListener;
-    int id;
-    private Player player;
-    public MyHolder(View itemView) {
+
+    public MyHolder(final View itemView) {
         super(itemView);
         this.img= (ImageView) itemView.findViewById(R.id.imageView);
         this.img2= (ImageView) itemView.findViewById(R.id.imageView);
         this.nameTxt= (TextView) itemView.findViewById(R.id.textView);
         this.posTxt= (TextView) itemView.findViewById(R.id.textView2);
+
+        //Player player = new Player();
+        final View finalConvertView = itemView;
+
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Start an activity
+                if (getLayoutPosition() >= 0) {
+                    // Start an activity
+                    Toast.makeText(finalConvertView.getContext()
+                            , "" + getAdapterPosition()
+                            , Toast.LENGTH_SHORT).show();
+                }
 
-                Intent intent = new Intent(v.getContext(), SecondActivity.class);
-                    v.getContext().startActivity(intent);
+
+                //Intent intent = new Intent(v.getContext(), SecondActivity.class);
+                    //v.getContext().startActivity(intent);
 
 
                 // Start a fragment

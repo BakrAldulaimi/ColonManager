@@ -15,6 +15,6 @@ public class Lunch extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_my2, container, false);
+        return inflater.inflate(R.layout.activity_lunch, container, false);
     }
 }

@@ -29,9 +29,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> implements Filtera
     public MyAdapter(Context ctx, ArrayList<Player> players, int layout)
     {
         this.layout = layout;
-        this.c=ctx;
-        this.players=players;
-        this.filterList=players;
+        this.c = ctx;
+        this.players = players;
+        this.filterList = players;
     }
     @Override
     public MyHolder onCreateViewHolder(ViewGroup parent, int viewType) {
